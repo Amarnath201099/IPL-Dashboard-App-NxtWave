@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.latest-match-container {
+  background-color: #1e233b;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  border-radius: 15px;
+}
+
+.latest-match-top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.latest-match-competing-team {
+  font-size: 18px;
+}
+
+.latest-match-date {
+  font-size: 15px;
+}
+
+.latest-match-details {
+  font-size: 10px;
+}
+
+.competing-team-logo {
+  width: 80px;
+  height: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .competing-team-logo {
+    width: 140px;
+    height: 140px;
+  }
+
+  .latest-match-competing-team {
+    font-size: 25px;
+  }
+
+  .latest-match-date {
+    font-size: 18px;
+  }
+
+  .latest-match-details {
+    font-size: 13px;
+  }
+}
+
+.latest-match-bottom-container {
+  padding: 10px 15px;
+}
+
+.latest-match-headings {
+  font-size: 13px;
+}
+
+.latest-match-answers {
+  font-size: 11px;
+}
+
+hr {
+  border: 1px solid #475569;
+  width: 100%;
+}

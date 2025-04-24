@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.team-matches-container {
+  padding: 15px;
+}
+
+.team-banner-img {
+  width: 100%;
+}
+
+.team-matches-text {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+
+.team-matches-recent-matches-container {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-match-bg {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rcb {
+  background-image: linear-gradient(to bottom, #a4261d, #0f172a);
+  background-size: cover;
+}
+
+.kkr {
+  background-image: linear-gradient(to bottom, #5755a7, #0f172a);
+  background-size: cover;
+}
+
+.kxp {
+  background-image: linear-gradient(to bottom, #d91c1f, #0f172a);
+  background-size: cover;
+}
+
+.csk {
+  background-image: linear-gradient(to bottom, #f7db00, #0f172a);
+  background-size: cover;
+}
+
+.rr {
+  background-image: linear-gradient(to bottom, #da237b, #0f172a);
+  background-size: cover;
+}
+
+.mi {
+  background-image: linear-gradient(to bottom, #13418b, #0f172a);
+  background-size: cover;
+}
+
+.sh {
+  background-image: linear-gradient(to bottom, #f26d22, #0f172a);
+  background-size: cover;
+}
+
+.dc {
+  background-image: linear-gradient(to bottom, #4f5db0, #0f172a);
+  background-size: cover;
+}
