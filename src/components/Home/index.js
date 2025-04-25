@@ -33,7 +33,7 @@ class Home extends Component {
     return (
       <div className="home-bg-container">
         {isLoading ? (
-          <div testid="loader">
+          <div testid="loader" className="loader-container">
             <Loader type="Oval" color="#ffffff" height={50} width={50} />
           </div>
         ) : (

@@ -26,6 +26,30 @@
   justify-content: center;
 }
 
+.heading-back-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back-btn {
+  outline: none;
+  cursor: pointer;
+  border: 0px;
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.chart-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.pie-chart{
+  align-self: center;
+}
+
 .rcb {
   background-image: linear-gradient(to bottom, #a4261d, #0f172a);
   background-size: cover;
